@@ -1,0 +1,287 @@
+@font-face {
+    font-family: Noir;
+    src: url('fonts/Noir_medium.otf'), url('fonts/Noir_regular.otf');
+
+    font-family: Manrope;
+    src:url('fonts/Manrope-ExtraBold.woff2');
+
+    font-family: Moon;
+    src:url('img/Moon2.0-Bold.otf');
+
+    font-family:Mathison ;
+    src:url('fonts/Mathison-Bold.otf');
+
+    font-family:Signatura;
+    src:url('fonts/Signatura Monoline.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height:100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.section-1{
+    background-image: url(https://media.gq.com/photos/59e779eab2ac1f76b03c344c/master/pass/zoomfly-sp-sneak-of-the-week.gif);
+    height:100vh;
+    width: 100vh auto;
+    scroll-snap-align: center;
+}
+
+h1{
+    font-size: 50px;
+    width: 300px;
+    height: 265px;
+    padding-top: 682px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: Mathison;
+}
+
+/*
+.btn-acceuil{
+    text-decoration: none;
+    font-size: 75px;
+    text-align: center;
+    height: auto;
+    color: aqua;
+}
+*/
+
+
+
+/*
+h1{
+    font-size: 100px;
+    width: 692px;
+    height: 265px;
+    padding-top: 520px;
+    padding-left: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: Moon;
+}
+*/
+
+
+h2{
+    text-align: center;
+    font-size: 90px;
+    padding-top: 60px;
+    padding-bottom: 42px;
+    font-family: Noir;
+}
+h2 span{
+    color: #960000;
+    font-weight: bold;
+}
+
+.section-2{
+    scroll-snap-align: center;
+}
+
+/*Cards SECTION 2*/
+.section-2-card1{
+    margin-top: 50px;
+    width: 20%;
+    height: 654;
+    padding:16px;
+    background-color:white;
+    border-radius: 8px;
+    border-color:#960000 ;
+    box-shadow:0px 8px 16px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 110px;
+    margin-right: 50px;
+}
+/* UPDATE, j'aurai du utiliser les selecteurs "nth-child" pour les effets de survol, surtout que ce sont les mêmes pour les cards de cette section*/
+/*CARTES DE LA SECTION 2 AU SURVOL*/
+.section-2-card1:hover{
+    box-shadow: rgba(150, 0, 0, 0.5) 5px 5px, rgba(150, 0, 0, 0.3) 10px 10px, rgba(150, 0, 0, 0.2) 15px 15px, rgba(150, 0, 0, 0.1) 20px 20px, rgba(150, 0, 0, 0.05) 25px 25px;
+    transition-duration: 0.5s;
+}
+
+.section-2-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-cards-section2{
+    width: 100%;
+    height: 300px;
+    border-radius: 6px;
+    padding-bottom: 5px;
+}
+
+.Article-name{
+    margin-bottom: 5px;
+    margin-right: 0px;
+    font-family:Kayak Sans;
+}
+
+.article-price{
+    margin-bottom: 5px;
+    margin-left: 76px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.Type-of-article{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.extra-information{
+    margin-bottom: 20px;
+}
+
+/*BOUTON DES CARTES DE LA SECTION 2*/
+.btn-cards-section-2{
+    text-decoration: none;
+    color:white;
+    background-color: #1b1c1d;
+    border-radius: 4px;
+    padding: 6px 13px 6px 13px;
+    font-weight: 600;
+    font-family:Kayak Sans;
+}
+
+/*BOUTON DES CARTES DE LA SECTION AU SURVOL*/
+.btn-cards-section-2:hover{
+    text-decoration: none;
+    color:white;
+    background-color: #960000;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+.section-3{
+    scroll-snap-align: center;
+}
+
+/*Cards SECTION 3*/
+.section-3-card1{
+    margin-top: 50px;
+    width: 20%;
+    height: 654;
+    padding:16px;
+    background-color:white;
+    border-radius: 8px;
+    border-color:#960000 ;
+    box-shadow:0px 8px 16px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 110px;
+    margin-right: 50px;
+}
+
+
+.Running{
+    color: #B3E140;
+    font-weight: bold;
+}
+
+/* UPDATE, j'aurai du utiliser les selecteurs "nth-child" pour les effets de survol, surtout que ce sont les mêmes pour les cards de cette section*/
+/*CARTES DE LA SECTION 3 AU SURVOL*/
+.section-3-card1:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition-duration: 0.5s;
+}
+
+.section-3-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-cards-section3{
+    width: 100%;
+    height: 300px;
+    border-radius: 6px;
+    padding-bottom: 5px;
+}
+
+.Article-name{
+    margin-bottom: 5px;
+    margin-right: 0px;
+    font-family:Kayak Sans;
+}
+
+.article-price{
+    margin-bottom: 5px;
+    margin-left: 76px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.Type-of-article{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.extra-information{
+    margin-bottom: 20px;
+}
+
+/*BOUTON DES CARTES DE LA SECTION 2*/
+.btn-cards-section-3{
+    text-decoration: none;
+    color:white;
+    background-color: #1b1c1d;
+    border-radius: 4px;
+    padding: 6px 13px 6px 13px;
+    font-weight: 600;
+    font-family:Kayak Sans;
+}
+
+/*BOUTON DES CARTES DE LA SECTION AU SURVOL*/
+.btn-cards-section-3:hover{
+    text-decoration: none;
+    color:white;
+    background-color:#B3E140;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+
+.section-4{
+    background-color: black;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+
+
+.texte-section-4{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 260px;
+    padding-left: 15px;
+    padding-bottom: 85px;
+    color: white;
+    font-weight: bold;
+    font-family: Mathison;
+}
+
+.lien-portfolio{
+    text-decoration: none;
+    padding: 50px;
+    color: white;
+    box-shadow: rgb(189, 192, 194) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 465px;
+    font-size: 55px ;
+    font-family: Mathison;
+}
+
+.lien-portfolio:hover{
+    box-shadow: rgba(255, 255, 255, 0.589) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    transition-duration: 0.4s;
+}
